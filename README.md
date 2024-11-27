@@ -28,6 +28,7 @@ To run:
 $ ./grader ./engine < tests/testcasename.in
 ```
 In the repository I have a bunch of manually generated testcases in tests/ as well as automatically generated testcases in scripts/.
+Note that these test files are meant to be used with the grader, not manually with the client
 
 # The assignment writeup
 ## Data Structures

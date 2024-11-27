@@ -13,12 +13,12 @@ The engine is in engine.cpp. To run it, run e.g ./engine socket.
 
 The client is in client.cpp. To run it, run e.g. ./client socket. The client will read commands from standard input in the following format:
 
-Create buy order
-- B [Order ID] [Instrument] [Price] [Count]
-Create sell order
-- S [Order ID] [Instrument] [Price] [Count]
-Cancel order
-- C [Order ID]
+- Create buy order
+  - B [Order ID] [Instrument] [Price] [Count]
+- Create sell order
+  - S [Order ID] [Instrument] [Price] [Count]
+- Cancel order
+  - C [Order ID]
 
 # The assignment writeup
 ## Data Structures

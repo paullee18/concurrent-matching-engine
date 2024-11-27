@@ -9,6 +9,7 @@ The files I wrote are:
 # To Run
 There is a provided makefile.
 
+## Running client and engine manually
 The engine is in engine.cpp. To run it, run e.g ./engine socket.
 
 The client is in client.cpp. To run it, run e.g. ./client socket. The client will read commands from standard input in the following format:
@@ -19,6 +20,14 @@ The client is in client.cpp. To run it, run e.g. ./client socket. The client wil
   - S [Order ID] [Instrument] [Price] [Count]
 - Cancel order
   - C [Order ID]
+
+## Running with provided grader
+There was a grader executable provided by the course with a relevant README so see that for more info.
+To run:
+```
+$ ./grader ./engine < tests/testcasename.in
+```
+In the repository I have a bunch of manually generated testcases in tests/ as well as automatically generated testcases in scripts/.
 
 # The assignment writeup
 ## Data Structures

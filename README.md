@@ -6,6 +6,18 @@ The files I wrote are:
 - ts_orderbook_hashmap.hpp: This defines a simplified concurrent hashmap with chaining using one mutex per bucket
 - engine.cpp: The Engine class which handles the logic when new orders are received
 
+# To Run
+There is a provided makefile.
+The engine is in engine.cpp. To run it, run e.g ./engine socket.
+The client is in client.cpp. To run it, run e.g. ./client socket. The client will read commands from standard input in the following format:
+
+Create buy order
+B <Order ID> <Instrument> <Price> <Count>
+Create sell order
+S <Order ID> <Instrument> <Price> <Count>
+Cancel order
+C <Order ID>
+
 # The assignment writeup
 ## Data Structures
 
